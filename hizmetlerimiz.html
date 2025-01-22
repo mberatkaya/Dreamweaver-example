@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Hizmetler | Reklam Ajansı">
+    <meta name="keywords" content="Reklam, Ajans, Hizmetler">
+    <meta name="author" content="Ad Soyad">
+    <title>Hizmetler | Nova Reklam</title>
+    <link rel="stylesheet" href="stil.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/line-awesome@1.3.0/dist/line-awesome/css/line-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1>Nova Reklam</h1>
+            </div>
+            <label for="nav-toggle" class="hamburger-icon">
+                <i class="las la-bars la-2x"></i>
+            </label>
+            <input type="checkbox" id="nav-toggle" class="nav-checkbox">
+            <nav class="menu">
+                <h2>Menü</h2>
+                <hr class="menu-divider">
+                <ul>
+                    <li><a href="anasayfa.html">Anasayfa</a></li>
+                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                    <li><a href="hizmetlerimiz.html">Hizmetler</a></li>
+                    <li><a href="iletisim.html">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="icerik">
+            <h2>Hizmetlerimiz</h2>
+            <p>Reklam ajansı olarak sunduğumuz hizmetler:</p>
+            <ul>
+                <li>
+                    <a href="#marka-stratejisi" data-fancybox="services">Marka Stratejisi</a>
+                </li>
+                <li>
+                    <a href="#dijital-pazarlama" data-fancybox="services">Dijital Pazarlama</a>
+                </li>
+                <li>
+                    <a href="#tasarim-yaratici" data-fancybox="services">Tasarım ve Yaratıcı Çözümler</a>
+                </li>
+                <li>
+                    <a href="#sosyal-medya" data-fancybox="services">Sosyal Medya Yönetimi</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <div id="marka-stratejisi" class="fancybox-content">
+        <h3>Marka Stratejisi</h3>
+        <p>Doğru hedef kitleye, doğru mesajlarla ulaşmanız için stratejiler geliştiriyoruz.</p>
+    </div>
+
+    <div id="dijital-pazarlama" class="fancybox-content">
+        <h3>Dijital Pazarlama</h3>
+        <p>Dijital dünyada markanızı güçlendiren yenilikçi çözümler sunuyoruz.</p>
+    </div>
+
+    <div id="tasarim-yaratici" class="fancybox-content">
+        <h3>Tasarım ve Yaratıcı Çözümler</h3>
+        <p>Göz alıcı tasarımlar ve yaratıcı kampanyalarla fark yaratıyoruz.</p>
+    </div>
+
+    <div id="sosyal-medya" class="fancybox-content">
+        <h3>Sosyal Medya Yönetimi</h3>
+        <p>Sosyal medya platformlarında markanızın etkisini artırıyoruz.</p>
+    </div>
+
+    <script>
+        Fancybox.bind('[data-fancybox="services"]');
+    </script>
+</body>
+</html>
+

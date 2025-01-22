@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Hakkımızda | Reklam Ajansı">
+    <meta name="keywords" content="Reklam, Ajans, Hakkımızda">
+    <meta name="author" content="Ad Soyad">
+    <meta property="og:title" content="Hakkımızda | Reklam Ajansı">
+    <meta property="og:description" content="Hakkımızda - Profesyonel reklam ajansı hakkında bilgiler.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="hakkimizda.html">    
+	<meta property="og:image" content="https://www.reklamajansi.com/assets/hakkimizda.jpg">
+    <title>Fatma ÇAĞDAŞ | 22110070006 | Hakkımızda | Nova Reklam</title>
+    <link rel="stylesheet" href="stil.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1>Nova Reklam</h1>
+            </div>
+            <label for="nav-toggle" class="hamburger-icon">
+                <i class="las la-bars la-2x"></i>
+            </label>
+            <input type="checkbox" id="nav-toggle" class="nav-checkbox">
+            <nav class="menu">
+                <h2>Menü</h2>
+                <hr class="menu-divider">
+                <ul>
+                    <li><a href="anasayfa.html">Anasayfa</a></li>
+                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                    <li><a href="hizmetlerimiz.html">Hizmetler</a></li>
+                    <li><a href="iletisim.html">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="icerik">
+            <h2>Yaratıcılıkla Geleceğe Yolculuk</h2>
+            <p>Nova Reklam Ajansı olarak, markanızı bir adım öteye taşımak için buradayız. Yaratıcılığın, inovasyonun ve etkili stratejilerin kesiştiği noktada, sizinle birlikte hayallerinizi gerçeğe dönüştürüyoruz.</p>
+
+          
+            <h3>Neden Nova?</h3>
+            <p>Yenilikçi düşünce yapımız, sektördeki tecrübemiz ve tutkumuzla fark yaratıyoruz. Müşterilerimizin beklentilerini aşan çözümler sunarak başarı hikayeleri yazıyoruz. Her projeye, taze ve yaratıcı bir bakış açısıyla yaklaşarak markanızın parlamasını sağlıyoruz.</p>
+
+            <h3>Gelin, markanız için yeni bir başlangıç yapalım!</h3>
+            <p>Birlikte çalışarak, sizi rakiplerinizden ayıracak ve hedeflerinize ulaştıracak etkili çözümler sunmaya hazırız.</p>
+
+            <h3>Nova Reklam Ajansı</h3>
+            <p>Yaratıcılık bizim DNA’mızda var.</p>
+        </section>
+
+        <div class="swiper">
+    		<div class="swiper-wrapper">
+        		<div class="swiper-slide"><img src="resimler/resim1.webp" alt="Resim 1"></div>
+        		<div class="swiper-slide"><img src="resimler/resim2.webp" alt="Resim 2"></div>
+        		<div class="swiper-slide"><img src="resimler/resim3.webp" alt="Resim 3"></div>
+    		</div>
+    			<div class="swiper-button-prev"></div>
+    			<div class="swiper-button-next"></div>
+			</div>
+    </main>
+
+    <script> 
+        const swiper = new Swiper('.swiper', {
+    		direction: 'horizontal',
+    		loop: true,
+    		navigation: {
+        		nextEl: '.swiper-button-next',
+        		prevEl: '.swiper-button-prev',
+    		},
+    		autoplay: {
+        		delay: 3000, 
+    		},
+			});
+
+    </script>  
+
+</body>
+</html>
+
